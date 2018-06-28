@@ -13,6 +13,7 @@
 		0948D3B020E4576A00E08E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0948D3AE20E4576A00E08E82 /* Main.storyboard */; };
 		0948D3B220E4576E00E08E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0948D3B120E4576E00E08E82 /* Assets.xcassets */; };
 		0948D3B520E4576E00E08E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0948D3B320E4576E00E08E82 /* LaunchScreen.storyboard */; };
+		0948D3BE20E460AD00E08E82 /* peru.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0948D3BD20E4609300E08E82 /* peru.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0948D3B120E4576E00E08E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0948D3B420E4576E00E08E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0948D3B620E4576E00E08E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0948D3BD20E4609300E08E82 /* peru.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = peru.mp4; path = ../../../../../../Downloads/peru.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0948D3A720E4576A00E08E82 /* TVApp */ = {
 			isa = PBXGroup;
 			children = (
+				0948D3BC20E4583F00E08E82 /* videos */,
 				0948D3A820E4576A00E08E82 /* AppDelegate.swift */,
 				0948D3AA20E4576A00E08E82 /* art.scnassets */,
 				0948D3AC20E4576A00E08E82 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				0948D3B620E4576E00E08E82 /* Info.plist */,
 			);
 			path = TVApp;
+			sourceTree = "<group>";
+		};
+		0948D3BC20E4583F00E08E82 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				0948D3BD20E4609300E08E82 /* peru.mp4 */,
+			);
+			path = videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0948D3BE20E460AD00E08E82 /* peru.mp4 in Resources */,
 				0948D3AB20E4576A00E08E82 /* art.scnassets in Resources */,
 				0948D3B520E4576E00E08E82 /* LaunchScreen.storyboard in Resources */,
 				0948D3B220E4576E00E08E82 /* Assets.xcassets in Resources */,
